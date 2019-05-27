@@ -651,3 +651,92 @@ System.IO.IOException: Failed to bind to address http://127.0.0.1:5000: address 
 2019-05-21 13:57:02.742 -04:00 [DBG] Augmenting SignInContext
 2019-05-21 13:57:02.742 -04:00 [INF] AuthenticationScheme: idsrv signed in.
 2019-05-21 13:57:52.119 -04:00 [DBG] client configuration validation for client mvc succeeded.
+2019-05-22 02:30:20.728 -04:00 [WRN] Heartbeat took longer than ""00:00:01"" at ""2019-05-22T06:30:20.4997210+00:00"".
+2019-05-24 06:58:05.500 -04:00 [WRN] Heartbeat took longer than ""00:00:01"" at ""2019-05-24T10:58:04.5300170+00:00"".
+2019-05-26 21:41:47.564 -04:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2019-05-26 21:41:47.601 -04:00 [INF] Using the default authentication scheme idsrv for IdentityServer
+2019-05-26 21:41:47.605 -04:00 [DBG] Using idsrv as default ASP.NET Core scheme for authentication
+2019-05-26 21:41:47.605 -04:00 [DBG] Using idsrv as default ASP.NET Core scheme for sign-in
+2019-05-26 21:41:47.605 -04:00 [DBG] Using idsrv as default ASP.NET Core scheme for sign-out
+2019-05-26 21:41:47.605 -04:00 [DBG] Using idsrv as default ASP.NET Core scheme for challenge
+2019-05-26 21:41:47.605 -04:00 [DBG] Using idsrv as default ASP.NET Core scheme for forbid
+2019-05-26 21:42:00.915 -04:00 [DBG] Login Url: /Account/Login
+2019-05-26 21:42:00.918 -04:00 [DBG] Login Return Url Parameter: ReturnUrl
+2019-05-26 21:42:00.918 -04:00 [DBG] Logout Url: /Account/Logout
+2019-05-26 21:42:00.918 -04:00 [DBG] ConsentUrl Url: /consent
+2019-05-26 21:42:00.918 -04:00 [DBG] Consent Return Url Parameter: returnUrl
+2019-05-26 21:42:00.918 -04:00 [DBG] Error Url: /home/error
+2019-05-26 21:42:00.918 -04:00 [DBG] Error Id Parameter: errorId
+2019-05-26 21:42:10.163 -04:00 [DBG] CORS request made for path: /Account/Logout from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2019-05-26 21:42:10.214 -04:00 [INF] AuthenticationScheme: idsrv signed out.
+2019-05-26 21:42:10.274 -04:00 [DBG] Request path /connect/endsession/callback matched to endpoint type Endsession
+2019-05-26 21:42:10.292 -04:00 [DBG] Endpoint enabled: Endsession, successfully created handler: IdentityServer4.Endpoints.EndSessionCallbackEndpoint
+2019-05-26 21:42:10.293 -04:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.EndSessionCallbackEndpoint for /connect/endsession/callback
+2019-05-26 21:42:10.299 -04:00 [DBG] Processing signout callback request
+2019-05-26 21:42:10.326 -04:00 [DBG] client configuration validation for client mvc succeeded.
+2019-05-26 21:42:10.326 -04:00 [DBG] No client front-channel logout URLs
+2019-05-26 21:42:10.326 -04:00 [DBG] No client back-channel logout URLs
+2019-05-26 21:42:10.326 -04:00 [INF] Successful signout callback.
+2019-05-26 21:42:10.326 -04:00 [DBG] No client front-channel iframe urls
+2019-05-26 21:42:10.326 -04:00 [DBG] No client back-channel iframe urls
+2019-05-26 21:42:14.880 -04:00 [INF] AuthenticationScheme: idsrv was challenged.
+2019-05-26 21:42:24.235 -04:00 [DBG] CORS request made for path: /Account/Login from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2019-05-26 21:42:24.270 -04:00 [DBG] Augmenting SignInContext
+2019-05-26 21:42:24.273 -04:00 [DBG] Adding idp claim with value: local
+2019-05-26 21:42:24.273 -04:00 [DBG] Adding amr claim with value: pwd
+2019-05-26 21:42:24.281 -04:00 [INF] AuthenticationScheme: idsrv signed in.
+2019-05-26 21:47:00.288 -04:00 [DBG] CORS request made for path: /Account/Logout from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2019-05-26 21:47:00.289 -04:00 [INF] AuthenticationScheme: idsrv signed out.
+2019-05-26 21:47:04.940 -04:00 [DBG] Request path /.well-known/openid-configuration matched to endpoint type Discovery
+2019-05-26 21:47:04.942 -04:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryEndpoint
+2019-05-26 21:47:04.942 -04:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2019-05-26 21:47:04.945 -04:00 [DBG] Start discovery request
+2019-05-26 21:53:05.421 -04:00 [INF] AuthenticationScheme: idsrv was challenged.
+2019-05-26 21:53:12.390 -04:00 [DBG] CORS request made for path: /Account/Login from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2019-05-26 21:53:12.391 -04:00 [DBG] Augmenting SignInContext
+2019-05-26 21:53:12.391 -04:00 [DBG] Adding idp claim with value: local
+2019-05-26 21:53:12.391 -04:00 [DBG] Adding amr claim with value: pwd
+2019-05-26 21:53:12.392 -04:00 [INF] AuthenticationScheme: idsrv signed in.
+2019-05-26 22:40:40.994 -04:00 [DBG] CORS request made for path: /Account/Logout from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2019-05-26 22:40:40.995 -04:00 [INF] AuthenticationScheme: idsrv signed out.
+2019-05-26 22:42:01.130 -04:00 [INF] AuthenticationScheme: idsrv was challenged.
+2019-05-26 22:42:10.923 -04:00 [DBG] CORS request made for path: /Account/Login from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2019-05-26 22:42:10.923 -04:00 [DBG] Augmenting SignInContext
+2019-05-26 22:42:10.923 -04:00 [DBG] Adding idp claim with value: local
+2019-05-26 22:42:10.924 -04:00 [DBG] Adding amr claim with value: pwd
+2019-05-26 22:42:10.924 -04:00 [INF] AuthenticationScheme: idsrv signed in.
+2019-05-26 22:43:39.454 -04:00 [DBG] Request path /.well-known/openid-configuration matched to endpoint type Discovery
+2019-05-26 22:43:39.454 -04:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryEndpoint
+2019-05-26 22:43:39.454 -04:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2019-05-26 22:43:39.454 -04:00 [DBG] Start discovery request
+2019-05-26 23:00:31.825 -04:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2019-05-26 23:00:31.868 -04:00 [INF] Using the default authentication scheme idsrv for IdentityServer
+2019-05-26 23:00:31.871 -04:00 [DBG] Using idsrv as default ASP.NET Core scheme for authentication
+2019-05-26 23:00:31.871 -04:00 [DBG] Using idsrv as default ASP.NET Core scheme for sign-in
+2019-05-26 23:00:31.871 -04:00 [DBG] Using idsrv as default ASP.NET Core scheme for sign-out
+2019-05-26 23:00:31.871 -04:00 [DBG] Using idsrv as default ASP.NET Core scheme for challenge
+2019-05-26 23:00:31.871 -04:00 [DBG] Using idsrv as default ASP.NET Core scheme for forbid
+2019-05-26 23:00:59.853 -04:00 [DBG] Login Url: /Account/Login
+2019-05-26 23:00:59.855 -04:00 [DBG] Login Return Url Parameter: ReturnUrl
+2019-05-26 23:00:59.855 -04:00 [DBG] Logout Url: /Account/Logout
+2019-05-26 23:00:59.855 -04:00 [DBG] ConsentUrl Url: /consent
+2019-05-26 23:00:59.855 -04:00 [DBG] Consent Return Url Parameter: returnUrl
+2019-05-26 23:00:59.855 -04:00 [DBG] Error Url: /home/error
+2019-05-26 23:00:59.855 -04:00 [DBG] Error Id Parameter: errorId
+2019-05-26 23:01:01.446 -04:00 [DBG] CORS request made for path: /Account/Logout from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2019-05-26 23:01:01.502 -04:00 [INF] AuthenticationScheme: idsrv signed out.
+2019-05-26 23:01:04.247 -04:00 [INF] AuthenticationScheme: idsrv was challenged.
+2019-05-26 23:01:15.700 -04:00 [DBG] CORS request made for path: /Account/Login from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2019-05-26 23:01:23.545 -04:00 [DBG] CORS request made for path: /Account/Login from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2019-05-26 23:01:23.567 -04:00 [DBG] Augmenting SignInContext
+2019-05-26 23:01:23.571 -04:00 [DBG] Adding idp claim with value: local
+2019-05-26 23:01:23.571 -04:00 [DBG] Adding amr claim with value: pwd
+2019-05-26 23:01:23.579 -04:00 [INF] AuthenticationScheme: idsrv signed in.
+2019-05-26 23:04:26.769 -04:00 [DBG] CORS request made for path: /Account/Logout from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2019-05-26 23:04:26.770 -04:00 [INF] AuthenticationScheme: idsrv signed out.
+2019-05-26 23:04:30.595 -04:00 [INF] AuthenticationScheme: idsrv was challenged.
+2019-05-26 23:04:37.319 -04:00 [DBG] CORS request made for path: /Account/Login from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2019-05-26 23:04:37.320 -04:00 [DBG] Augmenting SignInContext
+2019-05-26 23:04:37.320 -04:00 [DBG] Adding idp claim with value: local
+2019-05-26 23:04:37.320 -04:00 [DBG] Adding amr claim with value: pwd
+2019-05-26 23:04:37.321 -04:00 [INF] AuthenticationScheme: idsrv signed in.
